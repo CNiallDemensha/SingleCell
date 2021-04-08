@@ -1,14 +1,14 @@
 {
     "seed": 1234,
-    "k": 100,
-    "batch_size": 64,
+    "k": 14,
+    "batch_size": 500,
     "att_dims": 128,
-    "epochs": 8000,
+    "epochs": 60,
     "clip": 0.01,
-    "data_root": "/afs/cs.unc.edu/home/siyuanshan/time_transformer/data/",
-    "lr": 1e-4,
+    "data_root": "/nas/longleaf/home/athreya/gmm/data/",
+    "lr": 1e-2,
     "resume_from_epoch": -1,
-    "exp_dir": "/content/drive/My Drive/Colab Notebooks/COMP 991/log/cell",
+    "exp_dir": "/nas/longleaf/home/athreya/gmm/model/",
     "weight_decay": 0,
     "tau": 1
 }

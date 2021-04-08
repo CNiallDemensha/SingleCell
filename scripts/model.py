@@ -146,6 +146,21 @@ class ConditionalGMM(nn.Module):
         labels = torch.argmax(comp.log_prob(x), 1)
         return labels.detach().cpu().numpy()
 
+class kmeans_clustering():
+    def __init__(self, samples, num_clusters):
+        N, d = samples.shape
+        K = num_clusters
+        # Select random d_used coordinates out of d
+        d_used = min(d, max(500, d//8))
+        d_indices = np.random.choice(d, d_used, replace=False)
+        print('Performing k-means clustering to {} components of {} samples in dimension {}/{} ...'.format(K, N, d_used, d))
+        with Timer('K-means'):
+            self.kmeans = KMeans(n_clusters=K, max_iter=300, n_jobs=-1).fit(samples[:, d_indices])
+
+    def predict(self, samples):
+        return self.kmeans.predict(samples)
+
+
 if __name__ == "__main__":
     model = GMM(10, 64)
     data = torch.zeros(32, 64)
