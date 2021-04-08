@@ -1,0 +1,14 @@
+{
+    "seed": 1234,
+    "k": 100,
+    "batch_size": 64,
+    "att_dims": 128,
+    "epochs": 8000,
+    "clip": 0.01,
+    "data_root": "/afs/cs.unc.edu/home/siyuanshan/time_transformer/data/",
+    "lr": 1e-4,
+    "resume_from_epoch": -1,
+    "exp_dir": "/content/drive/My Drive/Colab Notebooks/COMP 991/log/cell",
+    "weight_decay": 0,
+    "tau": 1
+}
