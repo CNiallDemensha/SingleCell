@@ -1,11 +1,9 @@
 import torch
 import torch.nn as nn
-from torch.autograd import Variable
 import torch.distributions as D
 import numpy as np
 from sklearn.cluster import KMeans
 import time
-import pdb
 
 class Timer(object):
     def __init__(self, name='Operation'):
@@ -74,7 +72,7 @@ class ConditionalGMM(nn.Module):
         self.k = k
         self.d = d
         self.f_A = nn.Parameter(0.01 * torch.randn(self.k, self.d, self.d), requires_grad=True)
-        self.f_D = nn.Parameter(torch.ones(self.k, self.d), requires_grad=True)
+        self.f_D = nn.Parameter(torch.ones(self.k, self.d), requires_grad=True)                 # Why is D needed for creating positive definite matrix?
         self.f_mu = nn.Parameter(torch.zeros(self.k, self.d), requires_grad=True)
         self.b_A = nn.Parameter(0.01 * torch.randn(1, self.d, self.d), requires_grad=True)
         self.b_D = nn.Parameter(torch.ones(1, self.d), requires_grad=True)
@@ -103,7 +101,7 @@ class ConditionalGMM(nn.Module):
         return f_d, b_d
 
     def negative_log_prob(self, x):
-        f_sigma = torch.diag_embed(torch.nn.functional.softplus(self.f_D)) + torch.matmul(self.f_A, self.f_A.transpose(1,2))
+        f_sigma = torch.diag_embed(torch.nn.functional.softplus(self.f_D)) + torch.matmul(self.f_A, self.f_A.transpose(1,2))        # A*A.T (for symmetric) + n*eye (for diagonally dominant) ??f
         f_sigma = f_sigma.unsqueeze(0).repeat(x.shape[0], 1, 1, 1) # [bs, k, d, d]
         f_mu = self.f_mu.unsqueeze(0).repeat(x.shape[0], 1, 1) # [bs, k, d]
         b_sigma = torch.diag_embed(torch.nn.functional.softplus(self.b_D)) + torch.matmul(self.b_A, self.b_A.transpose(1,2))
@@ -145,20 +143,6 @@ class ConditionalGMM(nn.Module):
         x = x.unsqueeze(1).repeat(1, self.k, 1) # [bs, k, d]
         labels = torch.argmax(comp.log_prob(x), 1)
         return labels.detach().cpu().numpy()
-
-class kmeans_clustering():
-    def __init__(self, samples, num_clusters):
-        N, d = samples.shape
-        K = num_clusters
-        # Select random d_used coordinates out of d
-        d_used = min(d, max(500, d//8))
-        d_indices = np.random.choice(d, d_used, replace=False)
-        print('Performing k-means clustering to {} components of {} samples in dimension {}/{} ...'.format(K, N, d_used, d))
-        with Timer('K-means'):
-            self.kmeans = KMeans(n_clusters=K, max_iter=300, n_jobs=-1).fit(samples[:, d_indices])
-
-    def predict(self, samples):
-        return self.kmeans.predict(samples)
 
 
 if __name__ == "__main__":

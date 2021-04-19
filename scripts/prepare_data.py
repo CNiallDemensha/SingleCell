@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.model_selection import StratifiedShuffleSplit, StratifiedKFold
 import pdb
 import sys
 import argparse
@@ -34,18 +34,20 @@ inds = np.random.permutation(numpy_array.shape[0])
 numpy_array = numpy_array[inds][:num_samples, :]
 label = numpy_array[:, -1]
 
-ss = StratifiedShuffleSplit(n_splits=2, test_size=0.2, random_state=100)
-train_inds, test_inds = next(ss.split(numpy_array, label))
-
-train_data = numpy_array[train_inds]
-test_data = numpy_array[test_inds]
+# Normalize
 data_mean = np.mean(numpy_array, 0)
 data_std = np.std(numpy_array, 0)
-train_data = (train_data - data_mean[None, :]) / data_std[None, :]       # None indexing adds a new dimension/axis
-test_data = (test_data - data_mean[None, :]) / data_std[None, :]
-train_data[:, -1] = label[train_inds]
-test_data[:, -1] = label[test_inds]
+norm_array = (numpy_array - data_mean[None, :]) / data_std[None, :]       # None indexing adds a new dimension/axis
+
+ss = StratifiedKFold(n_splits=5, shuffle=True)
+splits = list(ss.split(norm_array, label))
 
 
-np.save(data_path + 'Levine_32_matrix_train.npy', train_data)
-np.save(data_path + 'Levine_32_matrix_test.npy', test_data)
+for i, (train_inds, test_inds) in enumerate(splits):
+    train_data = norm_array[train_inds]
+    test_data = norm_array[test_inds]
+    train_data[:, -1] = label[train_inds]
+    test_data[:, -1] = label[test_inds]
+
+    np.save(data_path + 'Levine_32_matrix_train_split{}.npy'.format(i), train_data)
+    np.save(data_path + 'Levine_32_matrix_test_split{}.npy'.format(i), test_data)
