@@ -1,9 +1,9 @@
 {
     "seed": 1234,
     "k": 14,
-    "batch_size": 500,
+    "batch_size": 3000,
     "att_dims": 128,
-    "epochs": 60,
+    "epochs": 20,
     "clip": 0.01,
     "data_root": "/nas/longleaf/home/athreya/gmm/data/",
     "lr": 1e-2,

@@ -87,12 +87,12 @@ for e in range(params.epochs):
     iteration_loss = []
     inds = np.random.permutation(train_data.shape[0])
     train_data = train_data[inds]
-    lam = 0 if e == 0 else 0.5
+    lam = 0 if e == 0 else 0.1
     for i in range(0, train_data.shape[0], params.batch_size):
         batch_data = train_data[i:i+params.batch_size]
         nll, _ = model.negative_log_prob(batch_data)
         l1_loss = torch.norm(torch.sigmoid(10 * model.alpha), 1)
-        total_loss = nll + lam * l1_loss
+        total_loss = nll #+ lam * l1_loss
         if(i%10000 == 0 and i > 0):
             print("Iteration {} / {} - Loss (nll, l1_loss, total) = {}".format(i, train_data.shape[0], [nll.item(), l1_loss.item(), total_loss.item()]))
         optimizer.zero_grad()
@@ -104,7 +104,7 @@ for e in range(params.epochs):
         #     if(name == 'alpha'):
         #         print("alpha[0] -: {}".format(model.alpha[0]))
         #         print("Applying soft-thresholding")
-        #         penalty = lam*params.lr
+        #         penalty = lam
         #         with torch.no_grad():
         #             param.data.copy_(torch.sign(param.data)*torch.clamp(torch.abs(param.data) - penalty, min=0.0))
         #         print("alpha[0] -: {}".format(model.alpha[0]))
@@ -133,7 +133,7 @@ for e in range(params.epochs):
                 else:
                     hist[j] = np.sum(labels == j)
 
-    lr_scheduler.step()
+    # lr_scheduler.step()
 
     pred_labels = np.concatenate(pred_labels)
     print("Test label shape = {}, Predicted label shape = {}".format(test_label.shape, pred_labels.shape))
@@ -160,7 +160,7 @@ for e in range(params.epochs):
 
     if test_epoch_loss[-1] < best_loss:
         best_loss = test_epoch_loss[-1]
-        torch.save(model.state_dict(), params.exp_dir + '/ckpt/{}_{}_{}_{:.0e}_{}_split{}_epoch_{}.pt'.format(model_type, str((train_data.shape[0] + test_data.shape[0])//1000) + 'k', str(params.epochs) + 'epochs', params.lr, "5e-01reg", split, e+1))
+        torch.save(model.state_dict(), params.exp_dir + '/ckpt/{}_{}_{}_{:.0e}_{}_split{}_epoch_{}.pt'.format(model_type, str((train_data.shape[0] + test_data.shape[0])//1000) + 'k', str(params.epochs) + 'epochs', params.lr, "1e-01reg", split, e+1))
     else:
         print("Test loss {} not better than previous best test loss {}. Skipping saving model".format(test_epoch_loss[-1], best_loss))
 

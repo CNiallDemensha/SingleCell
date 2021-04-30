@@ -145,6 +145,37 @@ class ConditionalGMM(nn.Module):
         return labels.detach().cpu().numpy()
 
 
+
+class IndependentGMM(nn.Module):
+    ''' A GMM model. '''
+    def __init__(
+            self, k, d, tau):
+        super().__init__()
+        self.k = k
+        self.d = d
+        self.f_mu = nn.Parameter(torch.zeros(self.k, self.d), requires_grad=True)
+        self.b_mu = nn.Parameter(torch.zeros(1, self.d), requires_grad=True)
+        self.pi = nn.Parameter(0.01 * torch.randn(self.k), requires_grad=True)
+        self.alpha = nn.Parameter(0.01 * torch.randn(self.k, self.d), requires_grad=True)
+        self.tau = tau
+
+    def negative_log_prob(self, x):
+        # sigma = torch.diag_embed(torch.nn.functional.softplus(self.D)) #+ torch.matmul(self.A, self.A.transpose(1,2))
+        # sigma = sigma.unsqueeze(0).repeat(x.shape[0], 1, 1, 1) # [bs, k, d, d]
+        f_mu = self.f_mu.unsqueeze(0).repeat(x.shape[0], 1, 1)  # [bs, k, d]
+        b_mu = self.b_mu.unsqueeze(0).repeat(x.shape[0], 1, 1)  # [bs, 1, d]
+        f_comp = D.Normal(f_mu, 1.0)
+        b_comp = D.Normal(b_mu, 1.0)
+        x = x.unsqueeze(1).repeat(1, self.k, 1)  # [bs, k, d]
+        alpha = torch.sigmoid(10 * self.alpha)
+        mix_p = torch.log(torch.softmax(self.tau * self.pi, 0).unsqueeze(0)) + \
+                torch.sum(alpha.unsqueeze(0) * f_comp.log_prob(x), -1) + \
+                torch.sum((1 - alpha.unsqueeze(0)) * b_comp.log_prob(x), -1)
+        assignment = torch.argmax(mix_p, 1)
+        nll = - torch.logsumexp(mix_p, dim=1)
+        return nll.mean(), assignment
+
+
 if __name__ == "__main__":
     model = GMM(10, 64)
     data = torch.zeros(32, 64)

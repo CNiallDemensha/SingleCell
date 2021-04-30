@@ -1,0 +1,365 @@
+Running --> python3 /nas/longleaf/home/athreya/gmm/scripts/train.py --cfg_file=params.json --model_name=50k_20epochs_1e-02_1e-02reg_epoch_20.pt
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+/usr/local/anaconda3-2019.10/lib/python3.7/site-packages/sklearn/metrics/cluster/supervised.py:746: FutureWarning: The behavior of AMI will change in version 0.22. To match the behavior of 'v_measure_score', AMI will use average_method='arithmetic' by default.
+  FutureWarning)
+{'att_dims': 128,
+ 'batch_size': 2000,
+ 'clip': 0.01,
+ 'data_root': '/nas/longleaf/home/athreya/gmm/data/',
+ 'epochs': 30,
+ 'exp_dir': '/nas/longleaf/home/athreya/gmm/model/',
+ 'k': 14,
+ 'lr': 0.01,
+ 'resume_from_epoch': -1,
+ 'seed': 1234,
+ 'tau': 1,
+ 'weight_decay': 0}
+Device -: cuda:0
+loading model 50k_20epochs_1e-02_1e-02reg_epoch_20.pt
+Starting training
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.666301727294922, 54.41085433959961, 29.666301727294922]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.861087799072266, 54.45594024658203, 29.861087799072266]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.611778259277344, 54.55881881713867, 29.611778259277344]
+Average train epoch loss for epoch 1 = 29.850085258483887
+Epoch 1 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 1 - Test Loss = 29.671920394897462, Vscore = 0.7271967438810553, ARI = 0.6817814879014823, AMI = 0.7135352230614678
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.813508987426758, 54.840030670166016, 30.361909866333008]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.91197395324707, 54.90449523925781, 30.46101951599121]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.708465576171875, 54.982784271240234, 30.25829315185547]
+Average train epoch loss for epoch 2 = 29.640128421783448
+Epoch 2 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 2 - Test Loss = 29.58832893371582, Vscore = 0.7181406453683086, ARI = 0.6655609628740878, AMI = 0.7038059902685423
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.73593521118164, 55.18699645996094, 30.287805557250977]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.71871566772461, 55.351806640625, 30.272233963012695]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.22803497314453, 55.57471466064453, 29.783782958984375]
+Average train epoch loss for epoch 3 = 29.572797870635988
+Epoch 3 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 3 - Test Loss = 29.537665557861327, Vscore = 0.7092171873076196, ARI = 0.645867656601834, AMI = 0.6929137859283545
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.3597354888916, 56.15959548950195, 29.92133140563965]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.643936157226562, 56.48785400390625, 30.20881462097168]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.480663299560547, 56.89589309692383, 30.04962158203125]
+Average train epoch loss for epoch 4 = 29.50906925201416
+Epoch 4 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 4 - Test Loss = 29.466282272338866, Vscore = 0.700054717390516, ARI = 0.6233856047273495, AMI = 0.6816807351901237
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.339134216308594, 57.81571578979492, 29.91729164123535]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.439655303955078, 58.32908630371094, 30.022945404052734]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [30.058778762817383, 58.82061767578125, 30.646984100341797]
+Average train epoch loss for epoch 5 = 29.437066650390626
+Epoch 5 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 5 - Test Loss = 29.37227439880371, Vscore = 0.692085331550416, ARI = 0.6039849388107659, AMI = 0.6721221980854766
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.493379592895508, 59.61034393310547, 30.0894832611084]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.322933197021484, 59.792396545410156, 29.920856475830078]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.186384201049805, 59.881103515625, 29.785194396972656]
+Average train epoch loss for epoch 6 = 29.304939651489256
+Epoch 6 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 6 - Test Loss = 29.2548885345459, Vscore = 0.6788974203638402, ARI = 0.57931662521195, AMI = 0.6547383620678017
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.255407333374023, 59.947269439697266, 29.85487937927246]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.158172607421875, 59.960289001464844, 29.757776260375977]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.490543365478516, 59.968833923339844, 30.09023094177246]
+Average train epoch loss for epoch 7 = 29.22041540145874
+Epoch 7 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 7 - Test Loss = 29.197296142578125, Vscore = 0.6742482022921719, ARI = 0.5666343992413604, AMI = 0.6488385140990726
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.251808166503906, 59.97920227050781, 29.851600646972656]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.37171173095703, 59.98240661621094, 29.97153663635254]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.13326644897461, 59.983882904052734, 29.733104705810547]
+Average train epoch loss for epoch 8 = 29.175031852722167
+Epoch 8 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 8 - Test Loss = 29.16476974487305, Vscore = 0.6719934678849359, ARI = 0.5601067118512295, AMI = 0.6476249886412566
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.4772891998291, 59.98530960083008, 30.0771427154541]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.11441993713379, 59.98619079589844, 29.71428108215332]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.319286346435547, 59.986854553222656, 29.91915512084961]
+Average train epoch loss for epoch 9 = 29.13865900039673
+Epoch 9 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 9 - Test Loss = 29.142055892944335, Vscore = 0.6715747088680211, ARI = 0.5571954159443918, AMI = 0.6472609769420177
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [28.857101440429688, 59.98836898803711, 29.456985473632812]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.35028076171875, 59.9890251159668, 29.950170516967773]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.81098747253418, 59.98963165283203, 29.4108829498291]
+Average train epoch loss for epoch 10 = 29.114289379119874
+Epoch 10 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 10 - Test Loss = 29.13007469177246, Vscore = 0.6688359584735649, ARI = 0.5530344175699295, AMI = 0.6435230454285102
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.34281349182129, 59.99080276489258, 29.94272232055664]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.197052001953125, 59.991111755371094, 29.79696273803711]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.321714401245117, 59.99141311645508, 29.921628952026367]
+Average train epoch loss for epoch 11 = 29.113576889038086
+Epoch 11 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 11 - Test Loss = 29.11152458190918, Vscore = 0.6698624156110373, ARI = 0.5515868286343111, AMI = 0.6454016076022405
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [28.859283447265625, 59.992469787597656, 29.45920753479004]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [28.915008544921875, 59.992977142333984, 29.514938354492188]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.10948371887207, 59.99326705932617, 29.709415435791016]
+Average train epoch loss for epoch 12 = 29.092216110229494
+Epoch 12 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 12 - Test Loss = 29.12332878112793, Vscore = 0.6693294513355955, ARI = 0.5519508357517625, AMI = 0.6458937405572477
+Test loss 29.12332878112793 not better than previous best test loss 29.11152458190918. Skipping saving model
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [28.974044799804688, 59.99359130859375, 29.5739803314209]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.347795486450195, 59.993568420410156, 29.947731018066406]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.654966354370117, 59.9936408996582, 29.254901885986328]
+Average train epoch loss for epoch 13 = 29.088097286224365
+Epoch 13 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 13 - Test Loss = 29.094590377807616, Vscore = 0.6685896739214676, ARI = 0.5514815595337426, AMI = 0.6450350546496545
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.16905403137207, 59.99390411376953, 29.768993377685547]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.083271026611328, 59.99401092529297, 29.683210372924805]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.3076114654541, 59.99403381347656, 29.907550811767578]
+Average train epoch loss for epoch 14 = 29.07966890335083
+Epoch 14 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 14 - Test Loss = 29.0990779876709, Vscore = 0.66771183757039, ARI = 0.5501381048894448, AMI = 0.6443746627548238
+Test loss 29.0990779876709 not better than previous best test loss 29.094590377807616. Skipping saving model
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.16983413696289, 59.994041442871094, 29.769775390625]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.09412956237793, 59.99395751953125, 29.694068908691406]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.136348724365234, 59.99355697631836, 29.736284255981445]
+Average train epoch loss for epoch 15 = 29.07110185623169
+Epoch 15 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 15 - Test Loss = 29.082871627807616, Vscore = 0.6683153887009957, ARI = 0.5523609530476982, AMI = 0.646379641137592
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.562904357910156, 59.98883819580078, 30.162792205810547]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.077987670898438, 59.968753814697266, 29.677675247192383]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.80164909362793, 59.887577056884766, 29.400524139404297]
+Average train epoch loss for epoch 16 = 29.068202400207518
+Epoch 16 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 16 - Test Loss = 29.1063533782959, Vscore = 0.6660570305863126, ARI = 0.5495063117046463, AMI = 0.643869965164051
+Test loss 29.1063533782959 not better than previous best test loss 29.082871627807616. Skipping saving model
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.5021915435791, 59.246917724609375, 30.09465980529785]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.171844482421875, 59.08746337890625, 29.762718200683594]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.950525283813477, 59.02873992919922, 29.540813446044922]
+Average train epoch loss for epoch 17 = 29.076362895965577
+Epoch 17 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 17 - Test Loss = 29.10500717163086, Vscore = 0.6685077305266806, ARI = 0.5508049909907485, AMI = 0.6460513614755432
+Test loss 29.10500717163086 not better than previous best test loss 29.082871627807616. Skipping saving model
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [28.966846466064453, 59.004920959472656, 29.556896209716797]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [28.642627716064453, 59.002174377441406, 29.232648849487305]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.29433250427246, 59.00076675415039, 29.884340286254883]
+Average train epoch loss for epoch 18 = 29.07481966018677
+Epoch 18 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 18 - Test Loss = 29.089925003051757, Vscore = 0.6669028077613245, ARI = 0.5495455877888185, AMI = 0.6444720768979068
+Test loss 29.089925003051757 not better than previous best test loss 29.082871627807616. Skipping saving model
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.030784606933594, 58.999359130859375, 29.620779037475586]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [28.85131072998047, 58.998905181884766, 29.441299438476562]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.370304107666016, 58.99842071533203, 29.960289001464844]
+Average train epoch loss for epoch 19 = 29.07117576599121
+Epoch 19 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 19 - Test Loss = 29.074667739868165, Vscore = 0.6664494229971533, ARI = 0.5487523509951908, AMI = 0.6441381790925353
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.01476287841797, 58.99625015258789, 29.604724884033203]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.08151626586914, 58.991424560546875, 29.671430587768555]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.712133407592773, 58.96175765991211, 29.30175018310547]
+Average train epoch loss for epoch 20 = 29.05823392868042
+Epoch 20 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 20 - Test Loss = 29.072938537597658, Vscore = 0.6652561527980358, ARI = 0.5476726991043662, AMI = 0.6422884370543616
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [28.69158363342285, 58.63106918334961, 29.277894973754883]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.039752960205078, 58.38459777832031, 29.623598098754883]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.826539993286133, 58.184471130371094, 29.408384323120117]
+Average train epoch loss for epoch 21 = 29.018218803405762
+Epoch 21 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 21 - Test Loss = 29.049023818969726, Vscore = 0.665865987107126, ARI = 0.5482606382585169, AMI = 0.644185930799871
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.015117645263672, 58.03866958618164, 29.595504760742188]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.32113265991211, 58.022369384765625, 29.901355743408203]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.692501068115234, 58.01494216918945, 29.27264976501465]
+Average train epoch loss for epoch 22 = 29.00411491394043
+Epoch 22 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 22 - Test Loss = 29.030874252319336, Vscore = 0.6665734818552551, ARI = 0.5492246254546048, AMI = 0.6456978511106516
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [28.785158157348633, 58.00895690917969, 29.36524772644043]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.171348571777344, 58.007606506347656, 29.75142478942871]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.540241241455078, 58.00670623779297, 29.12030792236328]
+Average train epoch loss for epoch 23 = 29.000559616088868
+Epoch 23 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 23 - Test Loss = 29.03684272766113, Vscore = 0.6660609823558447, ARI = 0.548829551398739, AMI = 0.645151624557287
+Test loss 29.03684272766113 not better than previous best test loss 29.030874252319336. Skipping saving model
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.08921241760254, 58.00556182861328, 29.669267654418945]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [28.875152587890625, 58.00516891479492, 29.455204010009766]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.823169708251953, 58.00483703613281, 29.403217315673828]
+Average train epoch loss for epoch 24 = 29.000499057769776
+Epoch 24 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 24 - Test Loss = 29.0303897857666, Vscore = 0.6657258894099968, ARI = 0.5482464033361861, AMI = 0.6445405845269319
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.26531219482422, 58.004295349121094, 29.845355987548828]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [28.65955352783203, 58.00407028198242, 29.239593505859375]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.935571670532227, 58.00386428833008, 29.515609741210938]
+Average train epoch loss for epoch 25 = 28.99663372039795
+Epoch 25 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 25 - Test Loss = 29.030387115478515, Vscore = 0.6656806190109895, ARI = 0.5475740891624528, AMI = 0.6442685058713516
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.22349739074707, 58.00351333618164, 29.803531646728516]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.285781860351562, 58.00334548950195, 29.865816116333008]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.44384002685547, 58.003196716308594, 30.02387237548828]
+Average train epoch loss for epoch 26 = 28.999205780029296
+Epoch 26 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 26 - Test Loss = 29.027173614501955, Vscore = 0.6671998284429409, ARI = 0.5493189466878113, AMI = 0.6463458281595663
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [28.90747833251953, 58.0029296875, 29.487506866455078]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.124675750732422, 58.0028076171875, 29.70470428466797]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.23507308959961, 58.0026969909668, 29.815099716186523]
+Average train epoch loss for epoch 27 = 29.001458358764648
+Epoch 27 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 27 - Test Loss = 29.03152503967285, Vscore = 0.6666592572877112, ARI = 0.5482210591142808, AMI = 0.6455242027873038
+Test loss 29.03152503967285 not better than previous best test loss 29.027173614501955. Skipping saving model
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [28.928165435791016, 58.00247573852539, 29.508190155029297]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [28.961559295654297, 58.00237274169922, 29.541582107543945]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.792329788208008, 58.00228500366211, 29.372352600097656]
+Average train epoch loss for epoch 28 = 29.0021110534668
+Epoch 28 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 28 - Test Loss = 29.026497268676756, Vscore = 0.6669365395994454, ARI = 0.549449169740128, AMI = 0.6459091035812196
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [28.85744285583496, 58.00210952758789, 29.437463760375977]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.026731491088867, 58.00203323364258, 29.606752395629883]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [29.072826385498047, 58.001956939697266, 29.65284538269043]
+Average train epoch loss for epoch 29 = 28.999579429626465
+Epoch 29 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 29 - Test Loss = 29.02599220275879, Vscore = 0.6653786145064969, ARI = 0.5471251055120134, AMI = 0.644035593685011
+Iteration 10000 / 40000 - Loss (nll, l1_loss, total) = [29.21465492248535, 58.00180435180664, 29.794673919677734]
+Iteration 20000 / 40000 - Loss (nll, l1_loss, total) = [29.240013122558594, 58.001739501953125, 29.820030212402344]
+Iteration 30000 / 40000 - Loss (nll, l1_loss, total) = [28.85670280456543, 58.001670837402344, 29.43671989440918]
+Average train epoch loss for epoch 30 = 29.000496101379394
+Epoch 30 - Eval mode
+Test label shape = (10000,), Predicted label shape = (10000,)
+Epoch 30 - Test Loss = 29.02103958129883, Vscore = 0.6651398993959724, ARI = 0.5469888564034886, AMI = 0.6436762314370719
+Training finished
+Epoch level Train_Loss, Test_Loss, V_Score, ARI, AMI -:
+[29.850085258483887, 29.640128421783448, 29.572797870635988, 29.50906925201416, 29.437066650390626, 29.304939651489256, 29.22041540145874, 29.175031852722167, 29.13865900039673, 29.114289379119874, 29.113576889038086, 29.092216110229494, 29.088097286224365, 29.07966890335083, 29.07110185623169, 29.068202400207518, 29.076362895965577, 29.07481966018677, 29.07117576599121, 29.05823392868042, 29.018218803405762, 29.00411491394043, 29.000559616088868, 29.000499057769776, 28.99663372039795, 28.999205780029296, 29.001458358764648, 29.0021110534668, 28.999579429626465, 29.000496101379394]
+[29.671920394897462, 29.58832893371582, 29.537665557861327, 29.466282272338866, 29.37227439880371, 29.2548885345459, 29.197296142578125, 29.16476974487305, 29.142055892944335, 29.13007469177246, 29.11152458190918, 29.12332878112793, 29.094590377807616, 29.0990779876709, 29.082871627807616, 29.1063533782959, 29.10500717163086, 29.089925003051757, 29.074667739868165, 29.072938537597658, 29.049023818969726, 29.030874252319336, 29.03684272766113, 29.0303897857666, 29.030387115478515, 29.027173614501955, 29.03152503967285, 29.026497268676756, 29.02599220275879, 29.02103958129883]
+[0.7271967438810553, 0.7181406453683086, 0.7092171873076196, 0.700054717390516, 0.692085331550416, 0.6788974203638402, 0.6742482022921719, 0.6719934678849359, 0.6715747088680211, 0.6688359584735649, 0.6698624156110373, 0.6693294513355955, 0.6685896739214676, 0.66771183757039, 0.6683153887009957, 0.6660570305863126, 0.6685077305266806, 0.6669028077613245, 0.6664494229971533, 0.6652561527980358, 0.665865987107126, 0.6665734818552551, 0.6660609823558447, 0.6657258894099968, 0.6656806190109895, 0.6671998284429409, 0.6666592572877112, 0.6669365395994454, 0.6653786145064969, 0.6651398993959724]
+[0.6817814879014823, 0.6655609628740878, 0.645867656601834, 0.6233856047273495, 0.6039849388107659, 0.57931662521195, 0.5666343992413604, 0.5601067118512295, 0.5571954159443918, 0.5530344175699295, 0.5515868286343111, 0.5519508357517625, 0.5514815595337426, 0.5501381048894448, 0.5523609530476982, 0.5495063117046463, 0.5508049909907485, 0.5495455877888185, 0.5487523509951908, 0.5476726991043662, 0.5482606382585169, 0.5492246254546048, 0.548829551398739, 0.5482464033361861, 0.5475740891624528, 0.5493189466878113, 0.5482210591142808, 0.549449169740128, 0.5471251055120134, 0.5469888564034886]
+[0.7135352230614678, 0.7038059902685423, 0.6929137859283545, 0.6816807351901237, 0.6721221980854766, 0.6547383620678017, 0.6488385140990726, 0.6476249886412566, 0.6472609769420177, 0.6435230454285102, 0.6454016076022405, 0.6458937405572477, 0.6450350546496545, 0.6443746627548238, 0.646379641137592, 0.643869965164051, 0.6460513614755432, 0.6444720768979068, 0.6441381790925353, 0.6422884370543616, 0.644185930799871, 0.6456978511106516, 0.645151624557287, 0.6445405845269319, 0.6442685058713516, 0.6463458281595663, 0.6455242027873038, 0.6459091035812196, 0.644035593685011, 0.6436762314370719]
+Performing k-means clustering to 14 components of 40000 samples in dimension 32/32 ...
+K-means took: 3.7523717880249023 sec
+KMeans V_Score, ARI, AMI -: 0.3875519956751338, 0.2544799804961326, 0.3771871823256783
+
+Model alpha
+
+tensor([[0.2004, 0.2334, 0.2396, 0.1830, 0.1959, 0.1922, 0.2596, 0.1792, 0.1911,
+         0.1833, 0.2474, 0.2164, 0.1852, 0.1789, 0.1925, 0.2010, 0.1994, 0.1939,
+         0.1982, 0.1915, 0.2058, 0.1995, 0.2076, 0.1838, 0.2000, 0.1799, 0.2082,
+         0.1960, 0.1844, 0.1804, 0.2000, 0.1858],
+        [0.8268, 0.1960, 0.1759, 0.1821, 0.8424, 0.8101, 0.8294, 0.1898, 0.1930,
+         0.1804, 0.1945, 0.2047, 0.1835, 0.1770, 0.8158, 0.8231, 0.8421, 0.1747,
+         0.8418, 0.1602, 0.2579, 0.1879, 0.1890, 0.1701, 0.8397, 0.1645, 0.7860,
+         0.1884, 0.2856, 0.1990, 0.8387, 0.7876],
+        [0.2176, 0.1971, 0.1916, 0.2043, 0.2026, 0.2029, 0.2004, 0.7979, 0.1994,
+         0.1932, 0.2149, 0.2006, 0.7700, 0.1946, 0.2490, 0.2181, 0.1980, 0.1909,
+         0.2048, 0.2061, 0.2541, 0.2191, 0.2327, 0.2342, 0.2093, 0.1967, 0.2186,
+         0.2172, 0.2042, 0.2113, 0.2107, 0.1920],
+        [0.3565, 0.2152, 0.2632, 0.1982, 0.2070, 0.2041, 0.8217, 0.2113, 0.2007,
+         0.1996, 0.2136, 0.2356, 0.2196, 0.2010, 0.2078, 0.2147, 0.2196, 0.1917,
+         0.2130, 0.2086, 0.2120, 0.2192, 0.2110, 0.1971, 0.2164, 0.2212, 0.2021,
+         0.2154, 0.1869, 0.2193, 0.2106, 0.2060],
+        [0.1981, 0.1995, 0.1848, 0.1796, 0.2922, 0.2091, 0.7573, 0.1987, 0.2055,
+         0.1847, 0.7082, 0.2481, 0.1874, 0.1800, 0.1890, 0.2040, 0.1965, 0.2510,
+         0.1903, 0.8428, 0.1876, 0.8295, 0.8203, 0.2162, 0.1966, 0.8123, 0.2127,
+         0.1892, 0.1807, 0.8278, 0.1767, 0.1941],
+        [0.8097, 0.2121, 0.1901, 0.1914, 0.1974, 0.8171, 0.1880, 0.8327, 0.1929,
+         0.1906, 0.6547, 0.1965, 0.8363, 0.8040, 0.8169, 0.2129, 0.7885, 0.1878,
+         0.1940, 0.1908, 0.2708, 0.1998, 0.2143, 0.2261, 0.7927, 0.1744, 0.2091,
+         0.8275, 0.2193, 0.7354, 0.1929, 0.2424],
+        [0.2067, 0.2053, 0.1927, 0.1761, 0.7817, 0.2193, 0.8271, 0.1915, 0.2054,
+         0.1865, 0.2611, 0.2172, 0.1951, 0.1888, 0.1951, 0.2056, 0.1856, 0.1873,
+         0.1903, 0.2169, 0.1913, 0.2047, 0.2066, 0.1966, 0.2056, 0.1858, 0.1998,
+         0.2099, 0.1862, 0.2062, 0.1793, 0.1894],
+        [0.1968, 0.2008, 0.1961, 0.7154, 0.2824, 0.1817, 0.2314, 0.2233, 0.8057,
+         0.7268, 0.2441, 0.2567, 0.1890, 0.1770, 0.1934, 0.2184, 0.2285, 0.1728,
+         0.6604, 0.1940, 0.2574, 0.2387, 0.2236, 0.1815, 0.2130, 0.1821, 0.2590,
+         0.1970, 0.2172, 0.1862, 0.6889, 0.1965],
+        [0.1985, 0.2468, 0.2128, 0.1849, 0.1983, 0.1986, 0.2177, 0.1913, 0.1891,
+         0.1841, 0.2517, 0.1974, 0.1939, 0.1788, 0.2011, 0.2019, 0.1856, 0.1933,
+         0.2003, 0.1811, 0.2100, 0.1982, 0.2067, 0.1845, 0.2007, 0.1827, 0.2071,
+         0.1974, 0.1818, 0.1906, 0.2017, 0.2004],
+        [0.8024, 0.1977, 0.1851, 0.1893, 0.1918, 0.2078, 0.8075, 0.1921, 0.1901,
+         0.1969, 0.2306, 0.2359, 0.1963, 0.1808, 0.1997, 0.1981, 0.1982, 0.1983,
+         0.1953, 0.1879, 0.2045, 0.1985, 0.1997, 0.1836, 0.1943, 0.1859, 0.2177,
+         0.1963, 0.1797, 0.2000, 0.1969, 0.1954],
+        [0.1976, 0.1950, 0.1920, 0.1867, 0.1851, 0.2537, 0.2543, 0.2020, 0.1863,
+         0.1893, 0.2082, 0.2346, 0.1814, 0.1756, 0.1971, 0.2085, 0.1744, 0.1796,
+         0.1929, 0.7472, 0.2139, 0.1907, 0.1968, 0.1955, 0.2014, 0.1903, 0.2100,
+         0.8256, 0.2038, 0.2022, 0.1947, 0.2053],
+        [0.8297, 0.1943, 0.1724, 0.1633, 0.1717, 0.1848, 0.8412, 0.1844, 0.1942,
+         0.1645, 0.1960, 0.2118, 0.1731, 0.1678, 0.1867, 0.1880, 0.1638, 0.1827,
+         0.1594, 0.8412, 0.1941, 0.1919, 0.2009, 0.2011, 0.2018, 0.1931, 0.2100,
+         0.1914, 0.1886, 0.1932, 0.1703, 0.1808],
+        [0.8235, 0.2043, 0.1858, 0.1783, 0.1786, 0.7734, 0.8303, 0.1807, 0.2024,
+         0.1770, 0.2607, 0.2115, 0.2046, 0.1751, 0.1979, 0.2005, 0.1922, 0.1916,
+         0.1852, 0.1823, 0.1894, 0.1935, 0.7850, 0.8063, 0.2143, 0.1800, 0.2063,
+         0.1940, 0.1961, 0.2043, 0.1897, 0.1941],
+        [0.2593, 0.2393, 0.2798, 0.8420, 0.1905, 0.8268, 0.8252, 0.1906, 0.1839,
+         0.8420, 0.2563, 0.7522, 0.1799, 0.1746, 0.1973, 0.2050, 0.1871, 0.1852,
+         0.1782, 0.1794, 0.2549, 0.1893, 0.2218, 0.1810, 0.1965, 0.1851, 0.3380,
+         0.1886, 0.2702, 0.2026, 0.1834, 0.7712]], device='cuda:0',
+       grad_fn=<SigmoidBackward>)
