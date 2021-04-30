@@ -1,14 +1,15 @@
 {
-    "seed": 1234,
+    "seed": 1241,
     "k": 14,
-    "batch_size": 3000,
+    "batch_size": 512,
     "att_dims": 128,
-    "epochs": 20,
+    "epochs": 8000,
     "clip": 0.01,
-    "data_root": "/nas/longleaf/home/athreya/gmm/data/",
-    "lr": 1e-2,
+    "data_root": "/afs/cs.unc.edu/home/siyuanshan/time_transformer/data/",
+    "lr": 1e-4,
     "resume_from_epoch": -1,
-    "exp_dir": "/nas/longleaf/home/athreya/gmm/model/",
+    "exp_dir": "/playpen1/scribble/ssy/log/VGMM_L1_seed_1241",
     "weight_decay": 0,
-    "tau": 1
+    "tau": 1,
+    "lam": 2e-2
 }
